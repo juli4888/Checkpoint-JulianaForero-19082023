@@ -1,0 +1,38 @@
+1. cd 'Introducción a la informática'/
+2. mkdir Checkpoint-JulianaForero-19082023
+3. git init 
+4. git remote add origin https://github.com/juli4888/Checkpoint-JulianaForero-19082023
+5. git checkout main
+6. touch main.js
+7. touch index.html
+8. git add .
+9. git commit -m "commit 01 de JulianaForero"
+10. git push --set-upstream origin main
+11. git branch feature
+12. git checkout feature
+13. mkdir Hardware
+14. mkdir Software
+15. mkdir SeguridadInformatica
+16. cd Hardware/
+17. touch resumen.txt
+18. cd ..
+19. cd Software/
+20. touch resumen.txt
+21. cd ..
+22. cd SeguridadInformatica/
+23. touch resumen.txt
+24. cd ..
+25. git add .
+26. git commit -m "commit 02 de JulianaForero"
+27. git push --set-upstream origin feature
+28. git checkout main
+29. mv main.js resumenHardware.txt
+30. mv index.html resumenSoftware.txt
+31. git add resumenHardware.txt
+32. git add resumenSoftware.txt
+33. git add comandos.txt
+34. git commit -m "commit 03 de JulianaForero"
+35. git push --set-upstream origin main
+
+
+
